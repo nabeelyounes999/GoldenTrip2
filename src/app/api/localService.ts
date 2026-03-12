@@ -215,8 +215,8 @@ class LocalService {
 
   saveBooking = async (booking: Partial<AdminBooking>): Promise<{ error: any }> => {
     const bookings = this.getStorageItem<AdminBooking[]>('goldentrip_bookings', initialBookings);
-    const newBooking = { 
-      ...booking, 
+    const newBooking = {
+      ...booking,
       id: `bk-${Math.random().toString(36).substr(2, 9)}`,
       createdAt: new Date().toISOString(),
       status: 'pending'
@@ -239,21 +239,21 @@ class LocalService {
     console.log('LocalService: Deleting booking request for ID:', id);
     let bookings = this.getStorageItem<AdminBooking[]>('goldentrip_bookings', initialBookings);
     const initialCount = bookings.length;
-    
+
     // Log all current IDs to see what we are comparing against
     console.log('Current booking IDs:', bookings.map(b => b.id));
-    
+
     bookings = bookings.filter(b => String(b.id).trim() !== String(id).trim());
-    
+
     console.log(`LocalService: Bookings count ${initialCount} -> ${bookings.length}`);
     this.setStorageItem('goldentrip_bookings', bookings);
-    
+
     if (bookings.length < initialCount) {
-       console.log('Deletion SUCCESSFUL in LocalService');
+      console.log('Deletion SUCCESSFUL in LocalService');
     } else {
-       console.log('Deletion FAILED in LocalService - ID not found');
+      console.log('Deletion FAILED in LocalService - ID not found');
     }
-    
+
     return { error: null };
   };
 
@@ -265,8 +265,8 @@ class LocalService {
 
   saveMessage = async (message: Partial<AdminMessage>): Promise<{ error: any }> => {
     const messages = this.getStorageItem<AdminMessage[]>('goldentrip_messages', initialMessages);
-    const newMessage = { 
-      ...message, 
+    const newMessage = {
+      ...message,
       id: `msg-${Math.random().toString(36).substr(2, 9)}`,
       createdAt: new Date().toISOString(),
       status: 'new'

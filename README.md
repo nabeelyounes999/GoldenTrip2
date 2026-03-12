@@ -40,8 +40,8 @@ Golden Trip is a full-featured, multi-lingual travel agency management platform 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/goldentrip.git
-   cd goldentrip
+   git clone https://github.com/nabeelyounes999/GoldenTrip2.git
+   cd GoldenTrip2
    ```
 
 2. **Install dependencies**:
@@ -78,4 +78,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*Made with ❤️ by [Your Name/Nabeel]*
+*Made with ❤️ by Nabeel*

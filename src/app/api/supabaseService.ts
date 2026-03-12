@@ -39,12 +39,12 @@ const mapVisa = (row: any): Visa => ({
 
 const unmapVisa = (visa: Partial<Visa>): any => {
   const { processingTime, validityPeriod, entryType, applicationFee, ...rest } = visa;
-  return { 
-    ...rest, 
-    processing_time: processingTime, 
-    validity_period: validityPeriod, 
-    entry_type: entryType, 
-    application_fee: applicationFee 
+  return {
+    ...rest,
+    processing_time: processingTime,
+    validity_period: validityPeriod,
+    entry_type: entryType,
+    application_fee: applicationFee
   };
 };
 
@@ -349,7 +349,7 @@ class SupabaseService {
       bio: item.bio,
       socials: item.socials || {}
     };
-    
+
     if (item.id && /^[0-9a-f-]{36}$/.test(item.id)) {
       row.id = item.id;
       return await supabase.from('team_members').upsert(row, { onConflict: 'id' });
