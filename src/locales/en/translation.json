@@ -1,0 +1,274 @@
+{
+  "nav": {
+    "home": "Home",
+    "destinations": "Destinations",
+    "packages": "Packages",
+    "visas": "Visas",
+    "about": "About Us",
+    "careers": "Careers",
+    "contact": "Contact",
+    "blogs": "Blog",
+    "admin": "Admin",
+    "bookNow": "Book Now"
+  },
+  "hero": {
+    "title": "Discover Your Next Great",
+    "highlight": "Adventure",
+    "subtitle": "Expertly crafted journeys, unforgettable experiences, and seamless visa services around the globe.",
+    "explore": "Explore Packages",
+    "contact": "Contact Us",
+    "stats": {
+      "destinations": "Destinations",
+      "packages": "Packages",
+      "travelers": "Happy Travelers",
+      "support": "Support"
+    }
+  },
+  "home": {
+    "featured": {
+      "title": "Featured Destinations",
+      "subtitle": "Handpicked destinations for your next adventure",
+      "from": "From JOD",
+      "viewDetails": "View Details"
+    },
+    "packages": {
+      "title": "Travel Packages",
+      "subtitle": "Choose the perfect package for your dream vacation",
+      "bookNow": "Book Now"
+    },
+    "deals": {
+      "title": "Exclusive Travel Deals",
+      "subtitle": "Limited time offers on popular destinations",
+      "from": "From JOD"
+    },
+    "whyUs": {
+      "title": "Why Choose Golden Trip?",
+      "subtitle": "We make your travel dreams come true"
+    },
+    "testimonials": {
+      "title": "What Our Travelers Say",
+      "subtitle": "Real experiences from real travelers"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Golden Trip",
+      "subtitle": "Creating unforgettable travel experiences since 2009"
+    },
+    "story": {
+      "title": "Our Story",
+      "p1": "Golden Trip was born from a simple belief: that travel has the power to transform lives, broaden perspectives, and create lasting memories. Founded in 2009 by a group of passionate travelers, we set out to make world-class travel experiences accessible to everyone.",
+      "p2": "What started as a small travel agency has grown into a trusted global brand, serving over 50,000 satisfied travelers. Our commitment to excellence, attention to detail, and genuine care for our customers has remained unchanged since day one.",
+      "p3": "Today, we continue to innovate and evolve, offering carefully curated experiences across 100+ destinations worldwide. Every journey we plan is crafted with the same passion and dedication that inspired our founders."
+    },
+    "stats": {
+      "travelers": "Happy Travelers",
+      "destinations": "Destinations",
+      "experience": "Years Experience",
+      "satisfaction": "Satisfaction Rate"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "text": "To inspire and enable people to explore the world, creating transformative travel experiences that enrich lives and foster global understanding."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "text": "To be the world's most trusted and innovative travel company, connecting people with extraordinary destinations and authentic experiences."
+    },
+    "values": {
+      "title": "Our Values",
+      "text": "Excellence, integrity, and customer satisfaction guide everything we do. We're committed to sustainable and responsible travel practices."
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "subtitle": "Passionate travel experts dedicated to your journey"
+    },
+    "cta": {
+      "title": "Ready to Start Your Adventure?",
+      "subtitle": "Join thousands of satisfied travelers and discover the world with Golden Trip",
+      "button": "Explore Destinations"
+    }
+  },
+  "visas": {
+    "hero": {
+      "title": "Visa Services",
+      "subtitle": "Complete visa assistance for your dream destinations. We handle the paperwork, you enjoy the journey.",
+      "searchPlaceholder": "Search for a country..."
+    },
+    "loading": "Loading visa information...",
+    "fee": "Application Fee",
+    "processingTime": "Processing Time",
+    "validityPeriod": "Validity Period",
+    "entryType": "Entry Type",
+    "requirements": "Required Documents:",
+    "applyNow": "Apply Now",
+    "noVisas": "No visas found matching your search.",
+    "whyUs": {
+      "title": "Why Choose ",
+      "highlight": "Golden Trip",
+      "titleEnd": " for Your Visa?",
+      "subtitle": "We make visa applications simple, fast, and stress-free"
+    }
+  },
+  "destinations": {
+    "hero": {
+      "title": "Discover Your Next Adventure",
+      "subtitle": "Explore {{count}} amazing destinations around the world"
+    },
+    "search": {
+      "placeholder": "Search destinations...",
+      "filters": "Filters",
+      "allCountries": "All Countries",
+      "allPrices": "All Prices",
+      "budget": "Budget (< 1000 JOD)",
+      "mid": "Mid-range (1000-1500 JOD)",
+      "luxury": "Luxury (1500+ JOD)"
+    },
+    "results": {
+      "loading": "Loading destinations...",
+      "found": "{{count}} Destinations Found",
+      "foundOne": "{{count}} Destination Found",
+      "noResultsTitle": "No destinations found",
+      "noResultsDesc": "Try adjusting your filters or search query"
+    },
+    "card": {
+      "jod": "JOD",
+      "viewDetails": "View Details",
+      "startingFrom": "Starting from"
+    }
+  },
+  "packageDetails": {
+    "loading": "Loading details...",
+    "notFound": "Destination not found",
+    "back": "Back to Destinations",
+    "overview": "Overview",
+    "duration": "Duration",
+    "groupSize": "Group Size",
+    "location": "Location",
+    "rating": "Rating",
+    "whatsIncluded": "What's Included",
+    "itinerary": "Itinerary",
+    "day": "Day",
+    "reviews": "Reviews",
+    "booking": {
+      "perPerson": "per person",
+      "fullName": "Full Name *",
+      "email": "Email *",
+      "phone": "Phone *",
+      "travelers": "Number of Travelers *",
+      "date": "Travel Date *",
+      "totalPrice": "Total Price:",
+      "bookNow": "Book Now",
+      "questions": "Questions? ",
+      "contactUs": "Contact us"
+    },
+    "alerts": {
+      "success": "Booking submitted! We will contact you shortly.",
+      "fail": "Failed to submit booking. Please try again.",
+      "error": "Error submitting booking."
+    }
+  },
+  "careers": {
+    "hero": {
+      "title": "Join Our Team",
+      "subtitle": "Help us create unforgettable travel experiences"
+    },
+    "culture": {
+      "title": "Why Work at Golden Trip?",
+      "desc": "At Golden Trip, we believe in creating not just amazing travel experiences for our customers, but also an inspiring work environment for our team. Join us in our mission to connect people with the world's most incredible destinations.",
+      "benefitsTitle": "Travel Benefits",
+      "benefitsDesc": "Exclusive travel discounts and familiarization trips",
+      "growthTitle": "Career Growth",
+      "growthDesc": "Professional development and advancement opportunities",
+      "teamTitle": "Great Team",
+      "teamDesc": "Work with passionate, like-minded travel enthusiasts"
+    },
+    "positions": {
+      "title": "Open Positions",
+      "loading": "Loading open positions...",
+      "none": "No open positions at the moment. Please check back later!",
+      "requirements": "Requirements:",
+      "posted": "Posted",
+      "applyNow": "Apply Now"
+    },
+    "modal": {
+      "title": "Apply for Position",
+      "fullName": "Full Name *",
+      "email": "Email *",
+      "phone": "Phone *",
+      "uploadCv": "Upload CV *",
+      "selected": "Selected:",
+      "clickUpload": "Click to upload or drag and drop",
+      "fileTypes": "PDF, DOC, DOCX (max 5MB)",
+      "coverLetter": "Cover Letter",
+      "coverLetterPlaceholder": "Tell us why you'd be a great fit...",
+      "cancel": "Cancel",
+      "submit": "Submit Application",
+      "submitting": "Submitting...",
+      "alertMissing": "Please upload your resume",
+      "alertSuccess": "Application submitted! We will review your application and get back to you soon.",
+      "alertFail": "Failed to submit application: "
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "We're here to help you plan your perfect vacation"
+    },
+    "info": {
+      "title": "Contact Information",
+      "desc": "Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Business Hours",
+      "days": "Thursday 10 AM–6 PM\nFriday Closed\nSaturday 10 AM–6 PM\nSunday 10 AM–6 PM\nMonday 10 AM–6 PM\nTuesday 10 AM–6 PM\nWednesday 10 AM–6 PM"
+    },
+    "form": {
+      "title": "Send us a Message",
+      "nameLabel": "Name *",
+      "namePlaceholder": "Your full name",
+      "emailLabel": "Email *",
+      "emailPlaceholder": "your.email@example.com",
+      "messageLabel": "Message *",
+      "messagePlaceholder": "How can we help you?",
+      "submit": "Send Message",
+      "alertSuccess": "Message sent! We will get back to you soon.",
+      "alertFail": "Failed to send message. Please try again.",
+      "alertError": "Error sending message."
+    }
+  },
+  "footer": {
+    "brandDesc": "Creating unforgettable travel experiences around the world since 2009.",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "contact": "Contact Us",
+    "newsletter": {
+      "title": "Subscribe to Our Newsletter",
+      "desc": "Get the latest travel deals and destination guides delivered to your inbox.",
+      "placeholder": "Enter your email",
+      "button": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Successfully subscribed! Please check your email to confirm.",
+      "error": "Failed to subscribe. Please try again."
+    },
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "refund": "Refund Policy",
+    "copyright": "Golden Trip. All rights reserved."
+  },
+  "blogs": {
+    "hero": {
+      "title": "Our Blog",
+      "subtitle": "Travel tips, destination guides, and inspiring stories"
+    },
+    "readMore": "Read More",
+    "by": "By",
+    "loading": "Loading blog posts...",
+    "noPosts": "No blog posts yet. Check back soon!",
+    "backToBlog": "Back to Blog",
+    "share": "Share this post",
+    "relatedPosts": "Related Posts"
+  }
+}

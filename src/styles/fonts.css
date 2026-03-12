@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Inter', 'Outfit', 'Noto Sans Arabic', system-ui, -apple-system, sans-serif;
+}
+
+[dir="rtl"] {
+  font-family: 'Noto Sans Arabic', 'Inter', 'Outfit', system-ui, -apple-system, sans-serif;
+}
